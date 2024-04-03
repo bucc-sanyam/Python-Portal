@@ -1,35 +1,57 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanyam Gupta</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .name {
+            font-size: 48px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
 </head>
-<script>
-   body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-   }
-
-   .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-   }
-
-   .name {
-      font-size: 48px;
-      text-transform: uppercase;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-   }
-</script>
 <body>
     <div class="container">
         <h1 class="name">Sanyam Gupta</h1>
         <!-- Add more content here -->
+    </div>
+    <div class="footer">
+        <p>Contact: <a href="mailto:example@example.com">example@example.com</a></p>
+        <p>Social: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
     </div>
 </body>
 </html>
